@@ -1,0 +1,10 @@
+.templateTitle {
+  display: inline-block;
+  padding-right: 10px;
+  color: #333;
+  margin-bottom: -8px;
+}
+
+.field-block {
+  min-height: 0 !important;
+}
