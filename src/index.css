@@ -8,3 +8,26 @@
 .field-block {
   min-height: 0 !important;
 }
+
+.naruse-template-content-upload-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.upload-picture-part {
+  display: inline-block;
+  padding: 0px 15px;
+  margin-right: 10px;
+}
+
+.upload-picture-part-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 10px;
+}
+
+.naruse-template-content-preview-picture-btn {
+  margin-left: 10px;
+}

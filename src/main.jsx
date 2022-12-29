@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index'
 import './index.css'
 
 const schema = {
@@ -14,9 +13,9 @@ const schema = {
       required: true,
     },
     "imageName": {
-      "title": "图片展示",
-      "type": "string",
-      "format": "image"
+      "title": "上传图片",
+      "widget": "image",
+      "type": "string"
     },
     "inputName2": {
       "title": "email输入框",
