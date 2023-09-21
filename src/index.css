@@ -31,3 +31,15 @@
 .naruse-template-content-preview-picture-btn {
   margin-left: 10px;
 }
+
+.ant-form-item {
+  margin: 0 0 12px;
+}
+
+form .ant-row .ant-form-item.fr-field {
+  margin: 0 0 6px;
+}
+
+form .fr-panel.fr-panel-bordered {
+  padding: 24px;
+}

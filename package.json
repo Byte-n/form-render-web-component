@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "antd": "^4.22.8",
-    "form-render": "^1.13.13",
+    "antd": "^4.24.14",
+    "form-render": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
