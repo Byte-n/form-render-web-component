@@ -1,6 +1,6 @@
 import FormRender, { useForm } from 'form-render';
 import { Button, Input, Popover, Tooltip, Upload } from 'antd';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { uploadFileApi } from './uploadImg';
 
 let ele = null;
@@ -16,6 +16,11 @@ function TitleAndDescription({ schema }) {
 function UploadAndImage(props) {
   const { value, schema } = props;
   const [inputValue, setValue] = useState(value);
+    useEffect(() => {
+        if (value !== inputValue) {
+            setValue(value)
+        }
+    }, [value, inputValue]);
   const inputChange = (value) => {
     setValue(value);
     props.onChange(value);
