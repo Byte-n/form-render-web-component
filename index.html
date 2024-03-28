@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <form-render scheme='{"type":"object","properties":{"inputName":{"title":"url输入框","type":"string","format":"url","required":true},"imageName":{"title":"图片展示","type":"string","format":"image"},"inputName2":{"title":"email输入框","type":"string","format":"email"},"string":{"title":"正则校验字符串","description":"a-z","type":"string","rules":[{"pattern":"^[a-z]+$"}]}}}' />
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+</head>
+<body>
+<div  id="devRoot"></div>
+<script type="module" src="/src/dev.jsx"></script>
+</body>
 </html>
